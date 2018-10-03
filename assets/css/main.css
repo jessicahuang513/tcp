@@ -2217,15 +2217,15 @@ input, select, textarea {
 }
 
 div.specialDiv{
-	text-align: left;
 	display: flex;
 	justify-content: center;
 	align-items: baseline;
 	margin-bottom: 7px;
 
 }
-div.specialDiv.bigMargin{
-	margin-bottom: 25px;
+div.specialDiv.left{
+	margin-left: 85px;
+	margin-bottom: 40px;
 }
 
 span.item1{
@@ -2408,14 +2408,14 @@ span.item1{
 /* Image */
 
 	.image {
-		border-radius: 3px;
+		border-radius: 8px;
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
 
 		.image img {
-			border-radius: 3px;
+			border-radius: 8px;
 			display: block;
 		}
 
@@ -3060,10 +3060,13 @@ span.item1{
 			display: inline-block;
 			margin-left: 4em;
 			padding: 0.65em;
-=		}
+			border-radius: 100%;
+			border: solid 1px;
+		}
 
 			.spotlight .image img {
 				display: block;
+				border-radius: 100%;
 				width: 16em;
 			}
 
