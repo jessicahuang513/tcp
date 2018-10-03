@@ -2234,6 +2234,9 @@ span.item1{
 	flex: 1, 0, auto;
 	margin-right: 25px;
 }
+span.item1.row2{
+	margin-bottom: 2%;
+}
 
 .logos-flex-container {
   padding: 0;
