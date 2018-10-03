@@ -2227,6 +2227,7 @@ div.specialDiv.left{
 	margin-left: 7%;
 	margin-bottom: 40px;
 	overflow: auto;
+	flex-wrap: wrap;
 }
 
 span.item1{
