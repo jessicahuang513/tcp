@@ -2259,6 +2259,8 @@ span.item1.row2{
 }
 
 .logos-flex-item {
+  padding-top:15px;
+  padding-bottom:10px;
   width: 200px;
   height: 80px;
   margin-top: 10px;
@@ -2969,7 +2971,7 @@ span.item1.row2{
 
 			.statistics li strong, .statistics li b {
 				display: block;
-				font-size: 2em;
+				font-size: 1.7em;
 				line-height: 1.1;
 				color: inherit !important;
 				font-weight: 300;
