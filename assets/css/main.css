@@ -2657,6 +2657,20 @@ input, select, textarea {
 				padding-right: 0 !important;
 			}
 
+.bw {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.bw:hover {
+  -webkit-filter: grayscale(100%);
+}
+
+
+
 /* Section/Article */
 
 	section.special, article.special {
@@ -2686,7 +2700,7 @@ input, select, textarea {
 				}
 
 		header.major p {
-			font-size: 1.25em;
+			font-size: 1.2em;
 			letter-spacing: -0.025em;
 		}
 
