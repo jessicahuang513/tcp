@@ -2227,11 +2227,10 @@ div.specialDiv.left{
 	margin-left: 7%;
 	margin-bottom: 40px;
 	overflow: auto;
-	flex: 1;
 }
 
 span.item1{
-	flex: 0, 1, auto;
+	flex: 1, 0, auto;
 	margin-right: 25px;
 }
 
