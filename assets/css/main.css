@@ -2224,8 +2224,10 @@ div.specialDiv{
 
 }
 div.specialDiv.left{
-	margin-left: 30px;
+	margin-left: 7%;
 	margin-bottom: 40px;
+	overflow: auto;
+	flex: 1;
 }
 
 span.item1{
