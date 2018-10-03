@@ -25,6 +25,9 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+img {max-height:100%;
+	max-width:100%;}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -337,7 +340,7 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: flex-start
 	}
 
 		.row > * {
@@ -580,7 +583,7 @@ input, select, textarea {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
-				align-items: stretch;
+				align-items: flex-start;
 			}
 
 				.row > * {
